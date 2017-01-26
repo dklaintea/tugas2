@@ -30,5 +30,10 @@ public class HitungLuas2 {
       //Luas = (alas*tinggi)/2
       double luas = (alas* tinggi)/2;
       System.out.println("Luas dari Segitiga : " + luas);      
+	{
+      System.out.print("Masukkan jari-jari : ");
+      double jarijari = sc.nextDouble();
+      double area = Math.PI * (jarijari * jarijari);
+      System.out.println("Luas Lingkaran adalah: " + area);
    }
 }
