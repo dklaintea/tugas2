@@ -21,4 +21,10 @@ public class HitungLuas2 {
 	   double area = panjang*lebar;
 	   System.out.println("Luas dari persegi panjang adalah :"+area);
     }
+	{
+      System.out.print("Masukkan jari-jari : ");
+      double jarijari = sc.nextDouble();
+      double area = Math.PI * (jarijari * jarijari);
+      System.out.println("Luas Lingkaran adalah: " + area);
+   }
 }
