@@ -21,7 +21,6 @@ public class HitungLuas2 {
 	   double area = panjang*lebar;
 	   System.out.println("Luas dari persegi panjang adalah :"+area);
     }
-<<<<<<< HEAD
 	      System.out.println("Masukkan Alas dari Segitiga:");
       double alas = scanner.nextDouble();
 
@@ -31,8 +30,6 @@ public class HitungLuas2 {
       //Luas = (alas*tinggi)/2
       double luas = (alas* tinggi)/2;
       System.out.println("Luas dari Segitiga : " + luas);      
-=======
->>>>>>> luaslingkaran
 	{
       System.out.print("Masukkan jari-jari : ");
       double jarijari = sc.nextDouble();
