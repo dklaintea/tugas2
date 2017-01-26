@@ -21,4 +21,14 @@ public class HitungLuas2 {
 	   double area = panjang*lebar;
 	   System.out.println("Luas dari persegi panjang adalah :"+area);
     }
+	      System.out.println("Masukkan Alas dari Segitiga:");
+      double alas = scanner.nextDouble();
+
+      System.out.println("Masukkan Tinggi dari Segitiga:");
+      double tinggi = scanner.nextDouble();
+
+      //Luas = (alas*tinggi)/2
+      double luas = (alas* tinggi)/2;
+      System.out.println("Luas dari Segitiga : " + luas);      
+   }
 }
